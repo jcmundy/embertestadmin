@@ -1,4 +1,6 @@
 # README
+Testing DockYard's Ember Admin:
+https://github.com/DockYard/ember-admin
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
