@@ -4,20 +4,22 @@ https://github.com/DockYard/ember-admin
 
 
 -------
-ember install ember-data
+```ember install ember-data
 ember g controller model-records
 create app/controllers/admin/modelnames_controller.rb
      with class Admin::ModelnamesController < ApplicationController
      
-in routes.rb add
+in routes.rb add for each model
    namespace :admin do
       resources :modelnames
    end
 
 add "ember-async-button": "^1.0.2" to emberapp's package.json
+npm install
 
-add "this.route('edit', { path: ':modelname_id/edit' });"  to ember-admin/addon/router.js for each model with relationships. 
-
+add "this.route('edit', { path: ':modelname_id/edit' });"  
+to ember-admin/addon/router.js for each model that has relationships. 
+```
 -------
 This README would normally document whatever steps are necessary to get the
 application up and running.
