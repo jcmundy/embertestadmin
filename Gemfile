@@ -22,6 +22,7 @@ gem 'ember-cli-rails'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'sass-rails', '~> 5.0'
 gem 'active_model_serializers'
+gem 'jsonapi-resources'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

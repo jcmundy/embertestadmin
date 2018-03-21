@@ -13,6 +13,7 @@ Router.map(function() {
   adminRouter(this);
   this.route('about');
   this.route('invitation');
+
 });
 
 export default Router;

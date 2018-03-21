@@ -49,7 +49,7 @@ class Admin::AuthorsController < ApplicationController
       ActiveModelSerializers::Deserialization
           .jsonapi_parse(
               params, only: [
-                  :name, :book_id
+                  :name, :book_id, :id
                   ]
                   )
     end
